@@ -1,0 +1,162 @@
+ ^A
+<v>
+
+^   <A          <   v<<A
+^   A           <   A
+<   v<A         ^   >^A
+<   A           ^   A
+A   >>^A        A   <A
+
+<   v<<A        <   <v<A
+A   >>^A        A   >>^A
+>   vA          >   vA
+A   ^A          A   ^A
+
+<   v<<A        v   <vA
+A   >>^A        <   <A
+A   A           <   A
+v   v<A         A   >>^A
+<   <A          A   A
+A   >>^A        >   vA
+A   A           ^   <^A
+>   vA          A   >A
+>   A           A   A
+^   ^<A         >   vA
+A   >A          A   ^A
+
+v   v<A         v   <vA
+A   ^>A         A   >^A
+A   A           A   A
+^   <A          ^   <A
+A   >A          A   >A
+v   v<A         <   <v<A
+<   <A          v   >A
+A   >>^A        A   >^A
+A   A           A   A
+A   A           A   A
+^   <A          >   vA
+>   v>A         ^   <^A
+A   ^A          A   >A
+
+UP/RIGHT:
+
+>   vA
+^   <^A
+A   >A
+
+v   <vA
+A   >^A
+<   v<<A
+^   >^A
+A   >A
+>   vA
+A   ^A
+<vA>^Av<<A>^A>AvA^A 19
+
+^   <A
+>   v>A
+A   ^A
+
+<   v<<A
+A   >>^A
+v   <vA
+>   >A
+A   ^A
+^   <A
+A   >A
+v<<A>>^A<vA>A^A<A>A 19
+
+no difference (except it turns out ^> is better when you go even deeper)
+
+UP/LEFT:
+
+^   <A
+<   v<A
+A   >>^A
+
+<   v<<A
+A   >^^A
+v   <vA
+<   <A
+A   >>^A
+>   vA
+>   A
+^   <^A
+A   >A
+v<<A>^^A<vA<A>>^AvAA<^A>A 25
+
+<   v<<A
+^   >^A
+A   >A
+
+v   v<A
+<   <A
+<   A
+A   >>^A
+>   vA
+^   <^A
+A   >A
+>   vA
+A   ^A
+v<A<AA>>^AvA<^A>AvA^A 21
+left-up better than up-left
+
+DOWN/RIGHT:
+v   v<A
+>   >A
+A   ^A
+
+v   v<A
+<   <A
+A   >>^A
+>   vA
+A   ^A
+^   <A
+A   >A
+v<A<A>>^AvA^A<A>A 17
+
+>   vA
+v   <A
+A   ^>A
+
+v   v<A
+A   ^>A
+<   v<<A
+A   >>^A
+^   <A
+>   v>A
+A   ^A
+v<A^>Av<<A>>^A<Av>A^A 21
+down-right better than right-down
+
+DOWN/LEFT:
+v   v<A
+<   <A
+A   >>^A
+
+v   v<A
+<   <A
+A   >>^A
+<   v<<A
+A   >>^A
+>   vA
+>   A
+^   <^A
+A   >A
+v<A<A>>^Av<<A>>^AvAA<^A^A 25
+
+<   v<<A
+v   >A
+A   >^A
+
+v   v<A
+<   <A
+<   A
+A   >>^A
+>   vA
+A   ^A
+>   vA
+^   <^A
+A   >A
+v<A<AA>>^AvA^AvA<^A>A 21
+left-down better than down-left
